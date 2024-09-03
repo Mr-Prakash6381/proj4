@@ -9,9 +9,11 @@
         *{
             padding: 0;
             margin: 0;
+            user-select: none;
+           
  
         }
-      h1{
+     h1{
         text-align: center;
         font-family: cursive;
         font-size: 40px;
@@ -22,10 +24,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
         color: white;
+        padding: 40px;
+        
+   }
+   .break{
+
+
+    
+
    }
    body{
-    
+    height: 100vh;
   background: linear-gradient(214deg,#29d2f0,#b2b8cc,#b143c2,#ea203d);
   background-size: 240% 240%;
   animation: gradient-animation 12s ease infinite;
@@ -48,66 +59,73 @@
     </style>
 </head>
 <body>
-    <h1>Class Time Table</h1>
-    <table class="table-bordered border-white p-2 m-5  table-sm">
+ 
+    <h1>M<sub>SC</sub> Class Time Table</h1>
+    <table class="table-bordered border-white table-sm">
         <tr class="row-gap-3">
+          <th>Period/Day</th>
             <th>9.30 to 10.20</th>
             <th>10.20 to 11.10</th>
             <th>11.10 to 12.00</th>
-            <th></th>
+            <th class="break  "></th>
             <th>12.30 to 01.20</th>
             <th>01.20 to 02.10</th>
             <th>02.10 to 3.00</th>    
 
         </tr>
         <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td></td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
+          <td>MonDay</td>
+            <td>TOA(ms.R.P)</td>
+            <td>DDA(Dr.A.S.A)</td>
+            <td>SL-Lab</td>
+            <td  class="break"></td>
+            <td>SL(Dr.A.A)</td>
+            <td>ACEMENT</td>
+            <td>Bigdata(Dr.R.P)</td>
            
         </tr>
         <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td></td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
+          <td>TuesDay</td>
+            <td>DDA(Dr.A.S.A)</td>
+            <td>SL-Lab </td>
+            <td>SL-Lab</td>
+            <td  class="break"></td>
+            <td>LINUX LAB</td>
+            <td>SL(Dr.A.A)</td>
+            <td>SP-L(DR.K.A)</td>
             
         </tr>
         <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td>Break Time</td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
+          <td>WednesDay</td>
+            <td>Bigdata(Dr.R.P)</td>
+            <td>SL(Dr.A.A)</td>
+            <td>DDA(Dr.A.S.A)</td>
+            <td  class="break">Break Time</td>
+            <td>LINUX LAB</td>
+            <td>SP-L(DR.K.A)</td>
+            <td>TOA(ms.R.P)</td>
            
         </tr>
         <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td></td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
+          <td>ThursDay</td>
+            <td>TOA(Ms.R.P)</td>
+            <td>PLACEMENT</td>
+            <td>SP-L(DR.K.A)</td>
+            <td  class="break"></td>
+            <td>LINUX LAB</td>
+            <td>Bigdata(Dr.R.P)</td>
+            <td>SL(Dr.A.A)</td>
            
         </tr>
         <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td></td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
+          <td>FriDay</td>
+            <td>SP-L(DR.K.A)</td>
+            <td>SL(Dr.A.A)</td>
+            <td>Bigdata(Dr.R.P)</td>
+            <td  class="break"></td>
+            <td>DDA(Dr.A.S.A)</td>
+            <td>TOA(Ms.R.P)</td>
+            <td>MENTOR(Dr.A.S.A)</td>
             
         </tr>
       
